@@ -1,4 +1,6 @@
-import FontAwesome from "@expo/vector-icons/FontAwesome";
+import Feather from "@expo/vector-icons/Feather";
+import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
+import Octicons from "@expo/vector-icons/Octicons";
 import { Tabs } from "expo-router";
 
 export default function TabLayout() {
@@ -7,9 +9,18 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
+          title: "Spells",
           tabBarIcon: ({ color }) => (
-            <FontAwesome size={28} name="home" color={color} />
+            <Feather name="search" size={24} color="black" />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="characters"
+        options={{
+          title: "Character",
+          tabBarIcon: ({ color }) => (
+            <Octicons name="people" size={24} color="black" />
           ),
         }}
       />
@@ -18,7 +29,11 @@ export default function TabLayout() {
         options={{
           title: "Settings",
           tabBarIcon: ({ color }) => (
-            <FontAwesome size={28} name="cog" color={color} />
+            <MaterialCommunityIcons
+              name="cog-outline"
+              size={24}
+              color="black"
+            />
           ),
         }}
       />
