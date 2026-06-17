@@ -5,34 +5,42 @@ import { Tabs } from "expo-router";
 
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{ tabBarActiveTintColor: "blue" }}>
+    <Tabs>
       <Tabs.Screen
         name="index"
         options={{
-          title: "Spells",
-          tabBarIcon: ({ color }) => (
-            <Feather name="search" size={24} color="black" />
+          title: "",
+          tabBarIcon: ({ focused }) => (
+            <Feather
+              name="search"
+              size={icon.size}
+              color={focused ? icon.focused : icon.color}
+            />
           ),
         }}
       />
       <Tabs.Screen
         name="characters"
         options={{
-          title: "Character",
-          tabBarIcon: ({ color }) => (
-            <Octicons name="people" size={24} color="black" />
+          title: "",
+          tabBarIcon: ({ focused }) => (
+            <Octicons
+              name="people"
+              size={icon.size}
+              color={focused ? icon.focused : icon.color}
+            />
           ),
         }}
       />
       <Tabs.Screen
         name="settings"
         options={{
-          title: "Settings",
-          tabBarIcon: ({ color }) => (
+          title: "",
+          tabBarIcon: ({ focused }) => (
             <MaterialCommunityIcons
               name="cog-outline"
-              size={24}
-              color="black"
+              size={icon.size}
+              color={focused ? icon.focused : icon.color}
             />
           ),
         }}
@@ -40,3 +48,9 @@ export default function TabLayout() {
     </Tabs>
   );
 }
+
+export const icon = {
+  size: 30,
+  color: "gray",
+  focused: "green",
+};
