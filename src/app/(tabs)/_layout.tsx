@@ -2,6 +2,7 @@ import Feather from "@expo/vector-icons/Feather";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import Octicons from "@expo/vector-icons/Octicons";
 import { Tabs } from "expo-router";
+import { themes } from "../../themes/themes";
 
 export default function TabLayout() {
   return (
@@ -13,8 +14,10 @@ export default function TabLayout() {
           tabBarIcon: ({ focused }) => (
             <Feather
               name="search"
-              size={icon.size}
-              color={focused ? icon.focused : icon.color}
+              size={themes.light.icon.size}
+              color={
+                focused ? themes.light.icon.focused : themes.light.icon.color
+              }
             />
           ),
         }}
@@ -26,8 +29,10 @@ export default function TabLayout() {
           tabBarIcon: ({ focused }) => (
             <Octicons
               name="people"
-              size={icon.size}
-              color={focused ? icon.focused : icon.color}
+              size={themes.light.icon.size}
+              color={
+                focused ? themes.light.icon.focused : themes.light.icon.color
+              }
             />
           ),
         }}
@@ -39,8 +44,10 @@ export default function TabLayout() {
           tabBarIcon: ({ focused }) => (
             <MaterialCommunityIcons
               name="cog-outline"
-              size={icon.size}
-              color={focused ? icon.focused : icon.color}
+              size={themes.light.icon.size}
+              color={
+                focused ? themes.light.icon.focused : themes.light.icon.color
+              }
             />
           ),
         }}
@@ -48,9 +55,3 @@ export default function TabLayout() {
     </Tabs>
   );
 }
-
-export const icon = {
-  size: 30,
-  color: "gray",
-  focused: "green",
-};
