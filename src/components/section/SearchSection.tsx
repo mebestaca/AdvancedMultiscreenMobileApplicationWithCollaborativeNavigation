@@ -1,10 +1,11 @@
 import { searchSection } from "@/styles/section/SearchSection";
 import { themes } from "@/themes/themes";
-import Entypo from "@expo/vector-icons/Entypo";
+
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
-import { TextInput, View } from "react-native";
+import { View } from "react-native";
 import Button from "../ui/Button";
+import SearchBox from "../ui/SearchBox";
 
 export default function SearchSection() {
   return (
@@ -17,14 +18,7 @@ export default function SearchSection() {
         />
       </Button>
 
-      <View>
-        <TextInput
-          style={searchSection.textbox}
-          placeholder="Search by name"
-          onChangeText={(value) => console.log(value)}
-        />
-        <Entypo name="chevron-down" size={24} color="black" />
-      </View>
+      <SearchBox />
 
       <Button>
         <FontAwesome5

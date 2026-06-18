@@ -4,5 +4,6 @@ export const button = StyleSheet.create({
   size: {
     width: 30,
     height: 30,
+    margin: 10,
   },
 });

@@ -6,5 +6,8 @@ export const themes = {
       focused: "green",
       primary: "green",
     },
+    border: {
+      color: "gray",
+    },
   },
 };
