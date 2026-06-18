@@ -2,12 +2,12 @@ export const themes = {
   light: {
     icon: {
       size: 30,
-      color: "gray",
+      color: "lightgray",
       focused: "green",
       primary: "green",
     },
     border: {
-      color: "gray",
+      color: "lightgray",
     },
   },
 };

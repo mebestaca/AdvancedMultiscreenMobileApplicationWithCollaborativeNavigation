@@ -4,7 +4,7 @@ export const searchSection = StyleSheet.create({
   arrangement: {
     flexDirection: "row",
     justifyContent: "space-between",
-    gap: 10,
     alignItems: "center",
+    margin: 10,
   },
 });
