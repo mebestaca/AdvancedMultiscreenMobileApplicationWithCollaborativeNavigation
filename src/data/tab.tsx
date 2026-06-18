@@ -7,7 +7,7 @@ type TabIconProps = {
   focused: boolean;
 };
 
-export const tabData = [
+export const tab = [
   {
     name: "index",
     options: {

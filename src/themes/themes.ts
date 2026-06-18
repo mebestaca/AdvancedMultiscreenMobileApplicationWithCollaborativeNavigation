@@ -4,6 +4,7 @@ export const themes = {
       size: 30,
       color: "gray",
       focused: "green",
+      primary: "green",
     },
   },
 };

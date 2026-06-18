@@ -1,17 +1,13 @@
-import { StyleSheet, Text, View } from "react-native";
+import SearchBox from "@/components/SearchBox";
+import { View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Tab() {
   return (
-    <View style={styles.container}>
-      <Text>Tab [Spells]</Text>
-    </View>
+    <SafeAreaView>
+      <View>
+        <SearchBox />
+      </View>
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-});
