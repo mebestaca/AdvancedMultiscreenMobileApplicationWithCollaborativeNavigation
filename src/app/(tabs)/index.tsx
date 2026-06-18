@@ -1,4 +1,4 @@
-import SearchSection from "@/components/SearchSection";
+import SearchSection from "@/components/section/SearchSection";
 import { View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 

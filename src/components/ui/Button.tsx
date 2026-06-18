@@ -1,4 +1,4 @@
-import { button } from "@/styles/Button";
+import { button } from "@/styles/ui/Button";
 import { Pressable, PressableProps } from "react-native";
 
 type ButtonProp = PressableProps & {

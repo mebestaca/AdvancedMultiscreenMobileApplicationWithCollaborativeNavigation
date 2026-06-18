@@ -1,10 +1,10 @@
-import { searchSection } from "@/styles/SearchSection";
+import { searchSection } from "@/styles/section/SearchSection";
 import { themes } from "@/themes/themes";
 import Entypo from "@expo/vector-icons/Entypo";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { TextInput, View } from "react-native";
-import Button from "./Button";
+import Button from "../ui/Button";
 
 export default function SearchSection() {
   return (
