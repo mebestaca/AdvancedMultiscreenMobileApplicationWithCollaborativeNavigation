@@ -1,3 +1,4 @@
+import { button } from "@/styles/Button";
 import { Pressable, PressableProps } from "react-native";
 
 type ButtonProp = PressableProps & {
@@ -5,5 +6,9 @@ type ButtonProp = PressableProps & {
 };
 
 export default function Button({ children, ...props }: ButtonProp) {
-  return <Pressable {...props}>{children}</Pressable>;
+  return (
+    <Pressable {...props} style={button.size}>
+      {children}
+    </Pressable>
+  );
 }
