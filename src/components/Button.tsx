@@ -1,9 +1,9 @@
-import { Pressable } from "react-native";
+import { Pressable, PressableProps } from "react-native";
 
-type ButtonProp = {
+type ButtonProp = PressableProps & {
   children: React.ReactNode;
 };
 
-export default function Button({ children }: ButtonProp) {
-  return <Pressable>{children}</Pressable>;
+export default function Button({ children, ...props }: ButtonProp) {
+  return <Pressable {...props}>{children}</Pressable>;
 }
