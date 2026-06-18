@@ -1,13 +1,14 @@
-import { searchBox } from "@/styles/SearchBox";
+import { searchSection } from "@/styles/SearchSection";
 import { themes } from "@/themes/themes";
+import Entypo from "@expo/vector-icons/Entypo";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import { TextInput, View } from "react-native";
 import Button from "./Button";
 
-export default function SearchBox() {
+export default function SearchSection() {
   return (
-    <View style={searchBox.arrangement}>
+    <View style={searchSection.arrangement}>
       <Button>
         <MaterialCommunityIcons
           name="file-plus-outline"
@@ -16,11 +17,14 @@ export default function SearchBox() {
         />
       </Button>
 
-      <TextInput
-        style={{ flex: 1 }}
-        placeholder="Search by name"
-        onChangeText={(value) => console.log(value)}
-      />
+      <View>
+        <TextInput
+          style={searchSection.textbox}
+          placeholder="Search by name"
+          onChangeText={(value) => console.log(value)}
+        />
+        <Entypo name="chevron-down" size={24} color="black" />
+      </View>
 
       <Button>
         <FontAwesome5
