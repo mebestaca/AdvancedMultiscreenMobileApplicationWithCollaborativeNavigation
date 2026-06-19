@@ -21,7 +21,7 @@ export default function SpellCard({ resource }: SpellProps) {
         <Text>{name}</Text>
         <Text>{school}</Text>
         <Text>{type}</Text>
-        <Text>{duration}</Text>
+        {duration && <Text>{duration}</Text>}
       </View>
 
       <Text>{level}</Text>
