@@ -1,11 +1,15 @@
+import SettingsHeaderSection from "@/components/section/SettingsHeaderSection";
 import { shared } from "@/styles/Shared";
-import { View } from "react-native";
+import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Tab() {
   return (
     <SafeAreaView style={shared.flex}>
-      <View style={shared.flex}></View>
+      <SettingsHeaderSection />
+      <View style={shared.flex}>
+        <Text>Check</Text>
+      </View>
     </SafeAreaView>
   );
 }
