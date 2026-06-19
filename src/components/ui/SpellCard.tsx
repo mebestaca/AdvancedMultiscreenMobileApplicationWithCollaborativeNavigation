@@ -1,4 +1,4 @@
-import { spellcard } from "@/styles/ui/spellcard";
+import { spellcard } from "@/styles/ui/Spellcard";
 import { themes } from "@/themes/themes";
 import { Spell } from "@/types/spell";
 import Feather from "@expo/vector-icons/Feather";
@@ -17,7 +17,7 @@ export default function SpellCard({ resource }: SpellProps) {
         size={themes.light.icon.size}
         color={themes.light.icon.primary}
       />
-      <View>
+      <View style={spellcard.details}>
         <Text>{name}</Text>
         <Text>{school}</Text>
         <Text>{type}</Text>
