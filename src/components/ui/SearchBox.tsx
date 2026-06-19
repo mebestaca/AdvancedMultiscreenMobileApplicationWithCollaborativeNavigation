@@ -1,4 +1,5 @@
 import { searchBox } from "@/styles/ui/SearchBox";
+import { themes } from "@/themes/themes";
 import Entypo from "@expo/vector-icons/Entypo";
 import { TextInput, View } from "react-native";
 
@@ -12,7 +13,7 @@ export default function SearchBox() {
       />
       <Entypo
         name="chevron-down"
-        size={24}
+        size={themes.light.icon.size}
         color="black"
         style={searchBox.icon}
       />

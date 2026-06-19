@@ -1,0 +1,60 @@
+import { Spell } from "@/types/spell";
+
+export const spells: Spell[] = [
+  {
+    id: 1,
+    name: "Acid Splash",
+    school: "Conjuration",
+    type: ["Damage"],
+    duration: "",
+    level: "Cantrip",
+  },
+  {
+    id: 2,
+    name: "Blade Ward",
+    school: "Abjuration",
+    type: ["Warding"],
+    duration: "",
+    level: "Cantrip",
+  },
+  {
+    id: 3,
+    name: "Booming Blade",
+    school: "Evocation",
+    type: ["Damage"],
+    duration: "",
+    level: "Cantrip",
+  },
+  {
+    id: 4,
+    name: "Chill Touch",
+    school: "Necromancy",
+    type: ["Damage"],
+    duration: "",
+    level: "Cantrip",
+  },
+  {
+    id: 5,
+    name: "Control Flames",
+    school: "Transmutation",
+    type: ["Control"],
+    duration: "",
+    level: "Cantrip",
+  },
+  {
+    id: 6,
+    name: "Create Bonfire",
+    school: "Conjuration",
+    type: ["Control", "Damage"],
+    duration: "Concentration, up to 1 minute",
+    level: "Cantrip",
+  },
+  {
+    id: 7,
+    name: "Dancing Lights",
+    school: "Evocation",
+    type: ["Utility"],
+    duration: "Concentration, up to 1 minute",
+    level: "Cantrip",
+  },
+];
