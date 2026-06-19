@@ -1,4 +1,4 @@
-import { spellcard } from "@/styles/ui/Spellcard";
+import { spellcard } from "@/styles/ui/spellcard";
 import { themes } from "@/themes/themes";
 import { Spell } from "@/types/spell";
 import Feather from "@expo/vector-icons/Feather";
