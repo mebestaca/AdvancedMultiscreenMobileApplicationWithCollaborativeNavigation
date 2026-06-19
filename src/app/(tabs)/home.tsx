@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { styles } from "../styles/home.styles";
+import { styles } from "../../styles/home.styles";
 
 export default function Index() {
   return (
@@ -122,33 +122,6 @@ export default function Index() {
           </View>
         </ImageBackground>
       </ScrollView>
-
-      <View style={styles.footer}>
-        <View style={styles.footerItem}>
-          <Ionicons name="home" size={22} color="#000" />
-          <Text style={styles.footerText}>Home</Text>
-        </View>
-
-        <View style={styles.footerItem}>
-          <Ionicons name="book-outline" size={22} color="#999" />
-          <Text style={styles.footerTextInactive}>Bible</Text>
-        </View>
-
-        <View style={styles.footerItem}>
-          <Ionicons name="list-outline" size={22} color="#999" />
-          <Text style={styles.footerTextInactive}>Plans</Text>
-        </View>
-
-        <View style={styles.footerItem}>
-          <Ionicons name="compass-outline" size={22} color="#999" />
-          <Text style={styles.footerTextInactive}>Discover</Text>
-        </View>
-
-        <View style={styles.footerItem}>
-          <Ionicons name="person-outline" size={22} color="#999" />
-          <Text style={styles.footerTextInactive}>You</Text>
-        </View>
-      </View>
 </View>
   );
 }
