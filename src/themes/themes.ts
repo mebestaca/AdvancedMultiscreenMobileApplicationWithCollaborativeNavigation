@@ -5,9 +5,13 @@ export const themes = {
       color: "lightgray",
       focused: "green",
       primary: "green",
+      alternate: "black",
     },
     border: {
       color: "lightgray",
+    },
+    emblem: {
+      color: "red",
     },
   },
 };

@@ -13,7 +13,7 @@ export default function CreateCharacterSection() {
         color={themes.light.icon.primary}
       />
 
-      <Text>Characters</Text>
+      <Text style={createCharacterhSection.title}>Characters</Text>
 
       <Entypo
         name="dots-three-horizontal"
