@@ -1,17 +1,11 @@
-import { StyleSheet, Text, View } from "react-native";
+import { shared } from "@/styles/Shared";
+import { View } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Tab() {
   return (
-    <View style={styles.container}>
-      <Text>Tab [Filters]</Text>
-    </View>
+    <SafeAreaView style={shared.flex}>
+      <View style={shared.flex}></View>
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-});

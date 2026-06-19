@@ -1,4 +1,5 @@
 import { createCharacterhSection } from "@/styles/section/CreateCharacterSection";
+import { shared } from "@/styles/Shared";
 import { themes } from "@/themes/themes";
 import Entypo from "@expo/vector-icons/Entypo";
 import Feather from "@expo/vector-icons/Feather";
@@ -13,7 +14,7 @@ export default function CreateCharacterSection() {
         color={themes.light.icon.primary}
       />
 
-      <Text style={createCharacterhSection.title}>Characters</Text>
+      <Text style={shared.title}>Characters</Text>
 
       <Entypo
         name="dots-three-horizontal"

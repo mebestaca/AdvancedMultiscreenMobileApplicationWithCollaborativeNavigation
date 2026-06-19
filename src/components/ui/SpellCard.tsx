@@ -1,4 +1,4 @@
-import { flex } from "@/styles/Flex";
+import { shared } from "@/styles/Shared";
 import { spellcard } from "@/styles/ui/Spellcard";
 import { themes } from "@/themes/themes";
 import { Spell } from "@/types/spell";
@@ -21,7 +21,7 @@ export default function SpellCard({ resource }: SpellProps) {
       <View style={spellcard.details}>
         <Text style={spellcard.name}>{name}</Text>
         <Text style={spellcard.school}>{school}</Text>
-        <View style={flex.row}>
+        <View style={shared.row}>
           {type.map((t, index) => (
             <Text key={index} style={spellcard.type}>
               {t.toUpperCase()}

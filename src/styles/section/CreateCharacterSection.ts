@@ -7,7 +7,4 @@ export const createCharacterhSection = StyleSheet.create({
     alignItems: "center",
     margin: 10,
   },
-  title: {
-    fontSize: 25,
-  },
 });

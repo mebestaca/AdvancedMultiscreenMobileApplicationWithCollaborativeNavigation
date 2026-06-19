@@ -1,14 +1,14 @@
 import CharacterListSection from "@/components/section/CharacterListSection";
 import CreateCharacterSection from "@/components/section/CreateCharacterSection";
 import UnlockSection from "@/components/section/UnlockSection";
-import { flex } from "@/styles/Flex";
+import { shared } from "@/styles/Shared";
 import { ScrollView, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Tab() {
   return (
-    <SafeAreaView style={flex.flex}>
-      <View style={flex.flex}>
+    <SafeAreaView style={shared.flex}>
+      <View style={shared.flex}>
         <CreateCharacterSection />
         <ScrollView>
           <CharacterListSection />
