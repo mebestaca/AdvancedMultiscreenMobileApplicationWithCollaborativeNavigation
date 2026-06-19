@@ -7,6 +7,9 @@ export const themes = {
       primary: "green",
       alternate: "black",
     },
+    evil: {
+      size: 50,
+    },
     border: {
       color: "lightgray",
     },
