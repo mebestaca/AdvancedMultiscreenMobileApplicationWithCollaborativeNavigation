@@ -4,4 +4,7 @@ export const flex = StyleSheet.create({
   flex: {
     flex: 1,
   },
+  row: {
+    flexDirection: "row",
+  },
 });

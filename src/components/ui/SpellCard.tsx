@@ -1,3 +1,4 @@
+import { flex } from "@/styles/Flex";
 import { spellcard } from "@/styles/ui/Spellcard";
 import { themes } from "@/themes/themes";
 import { Spell } from "@/types/spell";
@@ -18,13 +19,19 @@ export default function SpellCard({ resource }: SpellProps) {
         color={themes.light.icon.primary}
       />
       <View style={spellcard.details}>
-        <Text>{name}</Text>
-        <Text>{school}</Text>
-        <Text>{type}</Text>
-        {duration && <Text>{duration}</Text>}
+        <Text style={spellcard.name}>{name}</Text>
+        <Text style={spellcard.school}>{school}</Text>
+        <View style={flex.row}>
+          {type.map((t, index) => (
+            <Text key={index} style={spellcard.type}>
+              {t.toUpperCase()}
+            </Text>
+          ))}
+        </View>
+        {duration && <Text style={spellcard.duration}>{duration}</Text>}
       </View>
 
-      <Text>{level}</Text>
+      <Text style={spellcard.level}>{level}</Text>
     </View>
   );
 }
