@@ -63,4 +63,58 @@ export const styles = StyleSheet.create({
     fontSize: 12,
     fontWeight: "700",
   },
+
+  planCard: {
+    backgroundColor: "#fff",
+    marginHorizontal: 20,
+    marginTop: 24,
+    borderRadius: 24,
+    overflow: "hidden",
+    minHeight: 550,
+  },
+
+  imageGrid: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+  },
+  
+  gridImage: {
+    width: "33.33%",
+    height: 100,
+  },
+
+  emptyContainer: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingHorizontal: 30,
+  },
+
+  emptyTitle: {
+    fontSize: 28,
+    fontWeight: "700",
+    marginTop: 20,
+  },
+
+  emptyDescription: {
+    textAlign: "center",
+    fontSize: 16,
+    color: "#666",
+    marginTop: 12,
+    lineHeight: 24,
+  },
+
+  findPlanButton: {
+    marginTop: 30,
+    backgroundColor: "#000",
+    paddingVertical: 16,
+    paddingHorizontal: 40,
+    borderRadius: 30,
+  },
+
+  findPlanText: {
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "700",
+  },
 });
