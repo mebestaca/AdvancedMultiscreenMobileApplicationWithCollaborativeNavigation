@@ -1,8 +1,9 @@
 import {View, Text, TouchableOpacity} from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { styles } from "@/styles/discover.styles";
+import { router } from "expo-router";
 
-export default function Home() {
+export default function Discover() {
     const topics = [
         { title: "Love", color: "#3C7E97" },
         { title: "Anxiety", color: "#D02076" },
@@ -43,7 +44,8 @@ export default function Home() {
                 <Text style={styles.categoryText}>Videos</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.categoryCard}>
+            <TouchableOpacity style={styles.categoryCard}
+                              onPress={() => router.push("/churches")}>
                 <Ionicons name="home-outline" size={28} color="#000" />
                 <Text style={styles.categoryText}>Churches</Text>
             </TouchableOpacity>

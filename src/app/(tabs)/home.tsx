@@ -10,7 +10,7 @@ import {
 import { Ionicons } from "@expo/vector-icons";
 import { styles } from "../../styles/home.styles";
 
-export default function Index() {
+export default function Home() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
