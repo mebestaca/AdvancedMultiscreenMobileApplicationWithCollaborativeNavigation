@@ -1,67 +1,76 @@
-# Home Page
+# Tab Navigation
+<table>
+  <tr>
+    <th>Page</th>
+    <th>Actual</th>
+    <th>Output</th>
+  </tr>
 
-Actual
-<img width="150" height="320" alt="image" src="https://github.com/user-attachments/assets/52023b73-3a02-492a-aa60-6589dcadf4f3" />
+  <tr>
+    <td>Home</td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/52023b73-3a02-492a-aa60-6589dcadf4f3" width="300"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/06583ec1-1405-418a-97a1-6492e48e959c" width="300"/>
+    </td>
+  </tr>
 
-Output
-<img width="150" height="320" alt="image" src="https://github.com/user-attachments/assets/cf925219-84b1-4f10-9166-6a4f8abd7cde" />
+  <tr>
+    <td>Plans</td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/3b96958a-ac41-44ea-89ec-2a398b1c4720" width="300"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/ab447381-f887-4820-8d58-10c8a7a0ca9b" width="300"/>
+    </td>
+  </tr>
 
+  <tr>
+    <td>Discover</td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/ef5682a4-3d33-4820-afba-4506d71df003" width="300"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/9ae9502e-d4ef-4671-8fcb-c3a55f1094b9" width="300"/>
+    </td>
+  </tr>
+  <tr>
+     <td>You</td>
+     <td>
+        <img src="https://github.com/user-attachments/assets/582282c7-cfda-4c6e-9449-9312a756838e" width="300"/>
+     </td>
+     <td>
+        <img src="https://github.com/user-attachments/assets/6c8ffa1d-7df3-460f-a9db-dcbc7a6a76bd" width="300"/>
+     </td>
+  </tr>
+</table>
 
-# Plans Page
+# Stack Navigation
+In Discover page, stack navigation is applied when Churches is clicked.
+<table>
+  <tr>
+    <th></th>
+    <th>Discover Page</th>
+    <th>Churches Page</th>
+  </tr>
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3b96958a-ac41-44ea-89ec-2a398b1c4720" />
-
-
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+  <tr>
+    <td>Actual</td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/ef5682a4-3d33-4820-afba-4506d71df003" width="300"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/e8c9461b-8292-4131-9ff6-fd793c6b77a9" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td>Output</td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/9ae9502e-d4ef-4671-8fcb-c3a55f1094b9" width="300"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/54180764-16a6-4ac2-af7a-06ff1828e6dc" width="300"/>
+    </td>
+  </tr>
+</table>
