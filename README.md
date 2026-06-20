@@ -1,6 +1,16 @@
 # Home Page
 
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/52023b73-3a02-492a-aa60-6589dcadf4f3" />
+Actual
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/52023b73-3a02-492a-aa60-6589dcadf4f3" />
+
+Output
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cf925219-84b1-4f10-9166-6a4f8abd7cde" />
+
+
+# Plans Page
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/3b96958a-ac41-44ea-89ec-2a398b1c4720" />
+
 
 
 ## Get started
