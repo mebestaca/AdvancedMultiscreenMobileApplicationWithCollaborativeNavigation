@@ -76,7 +76,7 @@ export const styles = StyleSheet.create({
       borderRadius: 16,
       overflow: "hidden",
       justifyContent: "space-between",
-      minHeight: 320,
+      minHeight: 500,
     },
 
     topRow: {
@@ -92,21 +92,21 @@ export const styles = StyleSheet.create({
   
     smallText: {
       color: "#fff",
-      fontSize: 12,
+      fontSize: 16,
       marginBottom: 2
     },
   
     verseTitle: {
       color: "#fff",
       fontSize: 18,
-      fontWeight: "700",
+      fontWeight: "500",
       marginVertical: 0,
     },
   
     verseText: {
       color: "#fff",
-      fontSize: 20,
-      lineHeight: 22,
+      fontSize: 25,
+      lineHeight: 30,
       marginHorizontal: 10,
     },
   
