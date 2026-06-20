@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export const createCharacterhSection = StyleSheet.create({
+export const createCharacterSection = StyleSheet.create({
   arrangement: {
     flexDirection: "row",
     justifyContent: "space-between",

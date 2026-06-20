@@ -1,4 +1,4 @@
-import { createCharacterhSection } from "@/styles/section/CreateCharacterSection";
+import { createCharacterSection } from "@/styles/section/CreateCharacterSection";
 import { shared } from "@/styles/Shared";
 import { themes } from "@/themes/themes";
 import Entypo from "@expo/vector-icons/Entypo";
@@ -7,7 +7,7 @@ import { Text, View } from "react-native";
 
 export default function CreateCharacterSection() {
   return (
-    <View style={createCharacterhSection.arrangement}>
+    <View style={createCharacterSection.arrangement}>
       <Feather
         name="plus-circle"
         size={themes.light.icon.size}
