@@ -1,10 +1,10 @@
 # Home Page
 
 Actual
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/52023b73-3a02-492a-aa60-6589dcadf4f3" />
+<img width="70" height="120" alt="image" src="https://github.com/user-attachments/assets/52023b73-3a02-492a-aa60-6589dcadf4f3" />
 
 Output
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cf925219-84b1-4f10-9166-6a4f8abd7cde" />
+<img width="70" height="120" alt="image" src="https://github.com/user-attachments/assets/cf925219-84b1-4f10-9166-6a4f8abd7cde" />
 
 
 # Plans Page
