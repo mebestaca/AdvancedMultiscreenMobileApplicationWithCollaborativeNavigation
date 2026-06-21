@@ -19,9 +19,10 @@ Upon successful completion of this assignment, students will be able to:
 • Collaborate effectively using GitHub version control. 
 • Produce clean, maintainable, and professional‑quality mobile application code. 
 
-## References
+## Tools
 https://icons.expo.fyi/Index/Entypo/chevron-down <br>
 https://imagecolorpicker.com/
 
-
+## Reference Image
+![alt text](https://github.com/mebestaca/AdvancedMultiscreenMobileApplicationWithCollaborativeNavigation/blob/master/images/reference-image.png)
 
