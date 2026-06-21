@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Index() {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ height: "100%" }}>
       <View style={styles.bottomLayer}>
         <View id="Head" style={styles.header}>
           <View style={styles.iconGroup}>
@@ -35,14 +35,19 @@ export default function Index() {
             <View id="recMatch" style={styles.gameCard}>
               <Image
                 source={require("@/assets/images/ChessRecomended.png")}
-                style={{ height: 100, width: 100 }}
+                style={{ height: 110, width: 110 }}
               />
-              <View>
-                <Text>Recommended Match</Text>
-                <Text>Similar Skill</Text>
-                <Text>TitusC-5 (400)</Text>
+              <View style={{ margin: 15, gap: 3 }}>
+                <Text style={styles.gametitle}>Recommended Match</Text>
+                <Text style={styles.gameCardText}>Similar Skill</Text>
+                <Text style={{ color: "grey" }}>
+                  <Text style={{ color: "white", fontWeight: 600 }}>
+                    TitusC-5
+                  </Text>{" "}
+                  (400)
+                </Text>
                 <View style={{ flexDirection: "row", alignItems: "center" }}>
-                  <Text style={{ color: "grey" }}>vs:</Text>
+                  <Text style={{ color: "#6a6a6a" }}>vs:</Text>
                   <View
                     style={{
                       backgroundColor: "#1d1c1a",
@@ -50,7 +55,94 @@ export default function Index() {
                       padding: 3,
                     }}
                   >
-                    <Text>OW/OD/OL</Text>
+                    <Text style={{ color: "#6a6a6a" }}>
+                      <Text style={{ color: "#006302" }}>0W</Text> / 0D /
+                      <Text style={{ color: "#5b0000" }}> 0L</Text>
+                    </Text>
+                  </View>
+                </View>
+              </View>
+            </View>
+            <View id="PlayOnline" style={styles.gameCard}>
+              <Image
+                source={require("@/assets/images/playOnline.png")}
+                style={{ height: 110, width: 110 }}
+              />
+              <View style={{ margin: 15, gap: 3 }}>
+                <Text style={styles.gametitle}>Play Online</Text>
+                <Text style={styles.gameCardText}>10 min vs Random</Text>
+                <View
+                  style={{ flexDirection: "row", alignItems: "center", gap: 5 }}
+                >
+                  <Image
+                    source={require("@/assets/images/leaguesCup.png")}
+                    style={styles.icon}
+                  />
+                  <Text
+                    style={{
+                      fontSize: 25,
+                      fontWeight: "condensed",
+                      color: "#fff",
+                      marginLeft: 10,
+                    }}
+                  >
+                    #8
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View id="SOlvepuzzles" style={styles.gameCard}>
+              <Image
+                source={require("@/assets/images/puzzles.png")}
+                style={{ height: 110, width: 110 }}
+              />
+              <View style={{ margin: 15, gap: 3, flex: 1 }}>
+                <Text style={styles.gametitle}>Solve Puzzles</Text>
+                <Text style={styles.gameCardText}>Continue Your Journey!</Text>
+
+                <View style={{ flexDirection: "row" }}>
+                  <Image
+                    source={require("@/assets/images/puzzleIcon.png")}
+                    style={{ height: 40, width: 40 }}
+                  />
+                  <View style={{ flexDirection: "column", flex: 1 }}>
+                    <View
+                      style={{
+                        flexDirection: "row",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      <Text
+                        style={{
+                          fontSize: 20,
+                          fontWeight: "condensed",
+                          color: "#fff",
+                          marginLeft: 10,
+                        }}
+                      >
+                        1,058
+                      </Text>
+                      <Image
+                        source={require("@/assets/images/NextPuzzle.png")}
+                        style={{ height: 20, width: 20 }}
+                      />
+                    </View>
+                    <View
+                      style={{
+                        backgroundColor: "#3e3d3b",
+                        flex: 1,
+                        borderRadius: 10,
+                        flexDirection: "row",
+                      }}
+                    >
+                      <View
+                        style={{
+                          backgroundColor: "#86a94d",
+                          flex: 0.35,
+                          borderRadius: 10,
+                        }}
+                      ></View>
+                    </View>
                   </View>
                 </View>
               </View>
@@ -176,6 +268,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   bottomLayer: {
     backgroundColor: "#2b2726",
+    height: "100%",
   },
   header: {
     backgroundColor: "#252420",
@@ -215,9 +308,10 @@ const styles = StyleSheet.create({
   },
   friendCard: {
     flexDirection: "column",
-    flex: 1,
-    backgroundColor: "#22211f",
+    flex: 0.4,
+    backgroundColor: "#21201e",
     borderRadius: 8,
+    borderColor: "",
     justifyContent: "center",
     alignItems: "center",
     margin: 5,
@@ -229,16 +323,16 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     borderRadius: 6,
     backgroundColor: "#373634",
-    paddingVertical: 5,
+    paddingVertical: 6,
     alignItems: "center",
     width: "90%",
     margin: 10,
   },
   buttonText: {
     textAlign: "center",
-    fontWeight: "500",
+    fontWeight: "bold",
     fontSize: 15,
-    color: "white",
+    color: "#efefef",
   },
   profileImage: {
     height: 70,
@@ -248,5 +342,14 @@ const styles = StyleSheet.create({
   gameCard: {
     flexDirection: "row",
     padding: 5,
+  },
+  gametitle: {
+    fontWeight: "800",
+    fontSize: 20,
+    color: "#fff",
+  },
+  gameCardText: {
+    color: "#909090",
+    fontSize: 18,
   },
 });

@@ -1,6 +1,11 @@
 import { Image, StyleSheet, Text, View } from "react-native";
 
-export default function FriendCard() {
+type Props = {
+  resource: friends;
+};
+
+export default function FriendCard({ resource }: Props) {
+  const { username, decription, image } = resource;
   return (
     <View>
       <View>
@@ -8,7 +13,7 @@ export default function FriendCard() {
           source={require("@/assets/images/profilePawn.png")}
           style={styles.icon}
         />
-        <Text>Logiano77</Text>
+        <Text>{}</Text>
         <Text>Online 5 months ago</Text>
       </View>
     </View>
