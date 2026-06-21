@@ -35,5 +35,3 @@ https://imagecolorpicker.com/
 ## Button with Stack Navigation (indicated by the yellow box)
 ![alt text](https://github.com/mebestaca/AdvancedMultiscreenMobileApplicationWithCollaborativeNavigation/blob/master/images/trigger.png)
 
-### Joshua's AI use:
-[https://gemini.google.com/share/6adf453da16c](url)
