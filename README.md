@@ -29,5 +29,11 @@ https://imagecolorpicker.com/
 ## Reference Image
 ![alt text](https://github.com/mebestaca/AdvancedMultiscreenMobileApplicationWithCollaborativeNavigation/blob/master/images/reference-image.png)
 
+## Sample Output
+![alt text](https://github.com/mebestaca/AdvancedMultiscreenMobileApplicationWithCollaborativeNavigation/blob/master/images/sample-output.png)
+
+## Button with Stack Navigation (indicated by the yellow box)
+![alt text](https://github.com/mebestaca/AdvancedMultiscreenMobileApplicationWithCollaborativeNavigation/blob/master/images/trigger.png)
+
 ### Joshua's AI use:
 [https://gemini.google.com/share/6adf453da16c](url)
