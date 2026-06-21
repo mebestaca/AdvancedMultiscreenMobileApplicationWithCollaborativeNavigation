@@ -12,7 +12,11 @@ export default function FilterSection() {
   const router = useRouter();
   return (
     <View style={searchSection.arrangement}>
-      <Button>
+      <Button
+        onPress={() => {
+          router.back();
+        }}
+      >
         <Ionicons
           name="chevron-back"
           size={themes.light.icon.size}
@@ -20,7 +24,7 @@ export default function FilterSection() {
         />
       </Button>
 
-      <Text style={shared.title}>Filter</Text>
+      <Text style={shared.title}>Filters</Text>
 
       <Text style={filterSection.search}>Search</Text>
     </View>

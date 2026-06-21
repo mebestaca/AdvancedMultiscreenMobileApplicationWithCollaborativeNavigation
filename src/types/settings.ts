@@ -9,7 +9,3 @@ export interface Setting {
   slider?: boolean;
   button?: boolean;
 }
-
-export const icon = {
-  size: 30,
-};
