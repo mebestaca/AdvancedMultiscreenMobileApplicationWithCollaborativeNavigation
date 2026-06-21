@@ -23,7 +23,7 @@ Upon successful completion of this assignment, students will be able to:
 • Produce clean, maintainable, and professional‑quality mobile application code. 
 
 ## Tools
-https://icons.expo.fyi/Index/Entypo/chevron-down <br>
+https://icons.expo.fyi/Index <br>
 https://imagecolorpicker.com/
 
 ## Reference Image
