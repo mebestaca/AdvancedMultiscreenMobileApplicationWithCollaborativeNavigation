@@ -219,42 +219,63 @@ export default function Index() {
         </View>
 
         <View id="footer" style={styles.footer}>
-          <View style={{ backgroundColor: "#6aa24a" }}></View>
+          <Pressable
+            style={{
+              backgroundColor: "#73aa4c",
+              flex: 1,
+              borderRadius: 10,
+              borderColor: "#3c5b2a",
+              borderBottomWidth: 2,
+              borderRightWidth: 2,
+              justifyContent: "center",
+            }}
+          >
+            <Text
+              style={{
+                color: "#efefef",
+                fontWeight: "bold",
+                textAlign: "center",
+                fontSize: 30,
+              }}
+            >
+              Play
+            </Text>
+          </Pressable>
           <View
             id="tabs"
             style={{ flexDirection: "row", justifyContent: "space-evenly" }}
           >
-            <View>
+            <View style={{ flex: 1, alignItems: "center" }}>
               <Image
-                source={require("@/assets/images/profilePawn.png")}
+                source={require("@/assets/images/pawn.png")}
                 style={styles.icon}
               />
               <Text style={styles.footerText}>Home</Text>
             </View>
-            <View>
+            <View style={{ flex: 1, alignItems: "center" }}>
               <Image
-                source={require("@/assets/images/profilePawn.png")}
+                source={require("@/assets/images/puzzlepiece.png")}
                 style={styles.icon}
               />
               <Text style={styles.footerText}>Puzzles</Text>
             </View>
-            <View>
+            <View style={{ flex: 1, alignItems: "center" }}>
               <Image
-                source={require("@/assets/images/profilePawn.png")}
+                source={require("@/assets/images/gradcap.png")}
                 style={styles.icon}
               />
               <Text style={styles.footerText}>Learn</Text>
             </View>
-            <View>
+            <View style={{ flex: 1, alignItems: "center" }}>
               <Image
-                source={require("@/assets/images/profilePawn.png")}
+                source={require("@/assets/images/binoculars.png")}
                 style={styles.icon}
               />
               <Text style={styles.footerText}>Watch</Text>
             </View>
-            <View>
+            <View style={{ flex: 1, alignItems: "center" }}>
               <Image
-                source={require("@/assets/images/profilePawn.png")}
+                source={require("@/assets/images/hamburger.png")}
                 style={styles.icon}
               />
               <Text style={styles.footerText}>More</Text>
@@ -300,6 +321,8 @@ const styles = StyleSheet.create({
   footer: {
     backgroundColor: "#383431",
     padding: 10,
+    paddingBottom: 30,
+    flex: 0.1,
   },
   body: {
     flexDirection: "column",
