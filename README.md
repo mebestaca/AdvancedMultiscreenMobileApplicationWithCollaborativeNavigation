@@ -26,3 +26,5 @@ https://imagecolorpicker.com/
 ## Reference Image
 ![alt text](https://github.com/mebestaca/AdvancedMultiscreenMobileApplicationWithCollaborativeNavigation/blob/master/images/reference-image.png)
 
+### Joshua's AI use:
+[https://gemini.google.com/share/6adf453da16c](url)
